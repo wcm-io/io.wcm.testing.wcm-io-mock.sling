@@ -21,4 +21,9 @@ Helps setting up mock environment for [wcm.io Sling][wcmio-sling] Commons and Sl
 |0.x                                  |AEM 6.0+
 
 
+### GitHub Repository
+
+Sources: https://github.com/wcm-io/io.wcm.testing.wcm-io-mock.sling
+
+
 [wcmio-sling]: https://wcm.io/sling/
