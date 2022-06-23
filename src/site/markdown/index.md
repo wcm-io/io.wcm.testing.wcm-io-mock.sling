@@ -2,7 +2,7 @@
 
 Helps setting up mock environment for [wcm.io Sling][wcmio-sling] Commons and Sling Models Extensions.
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm/io.wcm.testing.wcm-io-mock.sling/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm/io.wcm.testing.wcm-io-mock.sling)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm/io.wcm.testing.wcm-io-mock.sling)](https://repo1.maven.org/maven2/io/wcm/io.wcm.testing.wcm-io-mock.sling/)
 
 
 ### Documentation

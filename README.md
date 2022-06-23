@@ -1,7 +1,7 @@
 <img src="https://wcm.io/images/favicon-16@2x.png"/> Sling Extensions Mock Helper
 ======
 [![Build](https://github.com/wcm-io/io.wcm.testing.wcm-io-mock.sling/workflows/Build/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.testing.wcm-io-mock.sling/actions?query=workflow%3ABuild+branch%3Adevelop)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm/io.wcm.testing.wcm-io-mock.sling/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm/io.wcm.testing.wcm-io-mock.sling)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm/io.wcm.testing.wcm-io-mock.sling)](https://repo1.maven.org/maven2/io/wcm/io.wcm.testing.wcm-io-mock.sling/)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=wcm-io_io.wcm.testing.wcm-io-mock.sling&metric=coverage)](https://sonarcloud.io/summary/new_code?id=wcm-io_io.wcm.testing.wcm-io-mock.sling)
 
 Helps setting up mock environment for wcm.io Sling Commons and Sling Models Extensions.
