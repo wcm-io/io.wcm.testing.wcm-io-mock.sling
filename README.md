@@ -7,7 +7,7 @@
 Helps setting up mock environment for wcm.io Sling Commons and Sling Models Extensions.
 
 Documentation: https://wcm.io/testing/wcm-io-mock/sling/<br/>
-Issues: https://wcm-io.atlassian.net/browse/WTES<br/>
+Issues: https://github.com/wcm-io/io.wcm.testing.wcm-io-mock.sling/issues<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
 Continuous Integration: https://github.com/wcm-io/io.wcm.testing.wcm-io-mock.sling/actions<br/>
 Commercial support: https://wcm.io/commercial-support.html
