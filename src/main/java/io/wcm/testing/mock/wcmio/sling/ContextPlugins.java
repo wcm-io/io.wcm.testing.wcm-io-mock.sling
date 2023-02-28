@@ -21,6 +21,7 @@ package io.wcm.testing.mock.wcmio.sling;
 
 import org.apache.sling.testing.mock.osgi.context.AbstractContextPlugin;
 import org.apache.sling.testing.mock.osgi.context.ContextPlugin;
+import org.apache.sling.testing.mock.sling.context.SlingContextImpl;
 import org.jetbrains.annotations.NotNull;
 
 import io.wcm.sling.commons.caservice.impl.ContextAwareServiceResolverImpl;
@@ -28,7 +29,6 @@ import io.wcm.sling.commons.request.RequestContext;
 import io.wcm.sling.models.injectors.impl.AemObjectInjector;
 import io.wcm.sling.models.injectors.impl.ModelsImplConfiguration;
 import io.wcm.sling.models.injectors.impl.SlingObjectOverlayInjector;
-import io.wcm.testing.mock.aem.context.AemContextImpl;
 
 /**
  * Mock context plugins.
@@ -42,9 +42,9 @@ public final class ContextPlugins {
   /**
    * Context plugin for wcm.io Sling Extensions.
    */
-  public static final @NotNull ContextPlugin<AemContextImpl> WCMIO_SLING = new AbstractContextPlugin<AemContextImpl>() {
+  public static final @NotNull ContextPlugin<SlingContextImpl> WCMIO_SLING = new AbstractContextPlugin<SlingContextImpl>() {
     @Override
-    public void afterSetUp(@NotNull AemContextImpl context) throws Exception {
+    public void afterSetUp(@NotNull SlingContextImpl context) throws Exception {
       setUp(context);
     }
   };
@@ -53,7 +53,7 @@ public final class ContextPlugins {
    * Set up request context and Sling Models Extensions.
    * @param context Aem context
    */
-  static void setUp(AemContextImpl context) {
+  static void setUp(SlingContextImpl context) {
 
     // context-aware services
     context.registerInjectActivateService(new ContextAwareServiceResolverImpl());
