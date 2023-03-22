@@ -24,6 +24,9 @@
   <body>
 
     <release version="1.2.0" date="not released">
+      <action type="update" dev="sseifert">
+        Register services and Sling Models injectors in beforeSetUp to ensure they are registered before auto-detection and registration of Sling Models from classpath takes place.
+      </action>
       <action type="update" dev="sseifert" issue="2">
         Use SlingContextImpl for WCMIO_SLING instead of AemContextImpl to be usable with sling-mocks alone.
       </action>
