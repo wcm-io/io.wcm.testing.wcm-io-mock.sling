@@ -15,7 +15,8 @@ Helps setting up mock environment for [wcm.io Sling][wcmio-sling] Commons and Sl
 
 |Sling Extensions Mock Helper version |AEM version supported
 |-------------------------------------|----------------------
-|1.2.x or higher                      |AEM 6.5.7+, AEMaaCS
+|1.2.2 or higher                      |AEM 6.5.17+, AEMaaCS
+|1.2.0                                |AEM 6.5.7+, AEMaaCS
 |1.1.x                                |AEM 6.4+, AEMaaCS
 |1.0.x                                |AEM 6.1+
 |0.x                                  |AEM 6.0+
