@@ -8,7 +8,7 @@ Helps setting up mock environment for [wcm.io Sling][wcmio-sling] Commons and Sl
 ### Documentation
 
 * [API documentation](apidocs/)
-* [Changelog](changes-report.html)
+* [Changelog](changes.html)
 
 
 ### AEM Version Support Matrix
