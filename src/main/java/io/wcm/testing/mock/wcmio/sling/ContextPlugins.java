@@ -43,6 +43,7 @@ public final class ContextPlugins {
    * Context plugin for wcm.io Sling Extensions.
    */
   public static final @NotNull ContextPlugin<SlingContextImpl> WCMIO_SLING = new AbstractContextPlugin<SlingContextImpl>() {
+
     /*
      * use beforeSetUp here instead of afterSetUp to ensure sling models injectors are registered
      * before the models are auto-detected from classpath.
